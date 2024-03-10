@@ -53,10 +53,55 @@ body{
     background: blue !important;
     color: #fff !important;
 }
+.iconDiv{
+    display: flex;
+    gap: 1rem;
+}
+.icon1{
+    background: blue !important;
+}
+.icon2{
+    background: skyblue !important;
+}
+.icon3{
+    background: skyblue !important;
+}
+.icon4{
+    background: blue !important;
+}
+.icon{
+    background: #FFFFFF0D;
+    text-align: center;
+    height: 9vh;
+    width: 6%;
+    border-radius: 2rem;
+    padding: 0.85rem;
+}
+.icon1 > img{
+    height: 3.55vh !important;
+    margin-top: -0.2rem;
+}
+.icon2 > img{
+    height: 6vh !important;
+    margin-top: -0.35rem;
+    margin-left: -0.3rem;
+}
+.icon3 > img{
+    height: 3.55vh !important;
+    margin-top: -0.2rem;
+}
+.icon4 > img{
+    height: 3.55vh !important;
+    margin-top: -0.2rem;
+}
 @media screen and (max-width:600px) {
     .work{
         width: 45% !important;
         height: 9vh !important;
+    }
+    .icon{
+        height: 9vh;
+        width: 15%;
     }
 }
 @media screen and (max-width:400px) {
