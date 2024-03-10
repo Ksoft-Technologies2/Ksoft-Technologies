@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: #FFFFFF !important;
+}
+.navbar-brand img{
+    height: 12vh;
+    margin-right: 10rem !important;
+    margin-left: 2rem !important;
+}
+.btn img{
+    height: 5vh;
+    margin-top: -0.7rem;
+}
+.nav-link{
+    margin-right: 1.5rem;
+    color: #000000 !important;
+    font-size: 16px !important;
+    font-family: monospace !important;
+    font-weight: 500 !important;
+}
+.dropdown-item:hover{
+    color: purple !important;
+}
+.nav-link:hover{
+    color: purple !important;
+}
+.carousel-item img{
+    height: 105vh !important;
+}
+.carousel-caption h1{
+    font-size: 50px !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: -21rem;
+}
+.work{
+    border: none;
+    outline: none;
+    background: #6366F1;
+    height: 8vh;
+    color: #fff;
+    padding: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    border-radius: 0.7rem;
+}
+.iconDiv{
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-left: 3.5rem;
+}
+.icons{
+    background: #FFFFFF0D;
+    height: 7vh;
+    width: 22%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+.icons:hover{
+    background: red;
+}
+.icons img{
+    height: 4vh !important;
+}
