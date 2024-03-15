@@ -81,3 +81,15 @@ body{
     font-size: 17px;
     border-radius: 0.7rem;
 }
+.hero{
+    background: url("..//img/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    height: 650px;
+    padding: 9rem;
+}
+/* .carousel {
+    background-color: #f2f2f2;
+  } */
